@@ -436,12 +436,12 @@
         <section class="my-24">
             <h2 class="text-4xl font-bold text-center mb-5">Clients Question</h2>
             <p class="text-[#777] text-center mb-16">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
-            <div class="flex flex-col lg:flex-row gap-10 border-2 border-gray-400 rounded-xl p-8">
-                <div>
+            <div class="flex flex-col lg:flex-row gap-3 border-2 border-gray-400 rounded-xl p-8">
+                <div class="flex-1">
                     <img src="Images/11.png" alt="">
                 </div>
 
-                <div>
+                <div class="flex-1">
                     <div class="collapse collapse-plus mb-4">
                         <input type="radio" name="my-accordion-3" checked="checked" />
                         <div class="collapse-title text-xl font-bold">
@@ -501,10 +501,66 @@
                 </div>
             </div>
         </section>
+
+        <!-- get in tuch section -->
+        <section class="my-16">
+            <h2 class="text-4xl font-bold text-center mb-5">Get In Touch</h2>
+            <p class="text-[#777] text-center mb-9">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis <br> placerat dolor. Purus urna in sit nullam proin. </p>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 ">
+                <div class=" flex flex-col gap-5 border-2 border-gray-200 p-5 rounded-lg">
+                    <div class="bg-[#e9f1db] p-6 rounded-xl">
+                        <img src="Images/message.png" alt="">
+                        <h2 class="text-[#777]">Phone Number : </h2>
+                        <h2 class="font-extrabold">(+62) 123-321-543</h2>
+                    </div>
+                    <div class="bg-[#e9eee1] p-6 rounded-xl">
+                        <img src="Images/call.png" alt="">
+                        <h2 class="text-[#777]">Email :  </h2>
+                        <h2 class="font-extrabold">hockeys@support.com</h2>
+                    </div>
+                    <div class="bg-[#e2e6ec] p-6 rounded-xl">
+                        <img src="Images/call.png" alt="">
+                        <h2 class="text-[#777]">Phone Number : </h2>
+                        <h2 class="font-extrabold">(+62) 123-321-543</h2>
+                    </div>
+                </div>
+                <div class="col-span-2">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
+                        <div>
+                            <label for="" class="font-bold">Your Name</label>
+                            <input type="text" placeholder="Enter your full name" class="input input-bordered w-full " />
+                        </div>
+                        <div>
+                            <label for="" class="font-bold">Your Email</label>
+                            <input type="text" placeholder="Enter your email" class="input input-bordered w-full " />
+                        </div>
+                        <div>
+                            <label for="" class="font-bold">Subject</label>
+                            <input type="text" placeholder="Enter your subject" class="input input-bordered w-full " />
+                        </div>
+                        <div>
+                            <label for="" class="font-bold">Phone Number</label>
+                            <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full " />
+                        </div>
+                        <div class="lg:col-span-2">
+                            <label class="mt-4 font-bold" for="">Message</label><br>
+                            <textarea class="textarea textarea-bordered w-full" placeholder="Write your message" rows="10" ></textarea>
+                        </div>
+                        <button class="btn bg-red-700 w-full lg:col-span-2 text-white">Send Message</button>
+
+                    </div>
+                  
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
 
     <!-- footer section -->
-    <footer class="footer p-10 bg-black text-white">
+    <footer class="footer p-10 bg-black text-white mt-15">
 
         <aside class="text-center">
             <h1 class="text-3xl font-extrabold">Get In Touch</h1>
